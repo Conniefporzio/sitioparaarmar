@@ -7,14 +7,12 @@
     --blanco:  #FFFFFF; 
 }
 
-
 *{
     margin; 0;
     padding: 0;
     box-sizing: border-box;
 
 }
-
 
 
 body {
@@ -45,4 +43,52 @@ body {
     /* Aplicar la variable como color de fondo usando var()*/
     background-color: var(--blanco);
 }
+
+.nav {
+
+   
+    /* SEPARO USANDO EL NAV ASI ME LLEVO EL MARGEN A TODAS LAS PAGINAS */
+
+    margin-bottom: 30px;
+}
+
+.nav-lista {
+    /*ELIMINAMOS LOS PUNTITOS DE LA LISTA*/
+    list-style: none;
+    background-color: var(--naranja);
+    display: flex;
+    padding: 10px 0;
+    padding-left: 40px;
+    text-align: center;
+
+}
+
+
+.nav a {
+
+    display: block;
+    border-right: 1px solid var(--blanco);
+    color: var(--blanco);
+    font-weight: bold;
+    text-decoration: none;
+
+    padding-left: 8px;
+    padding-right: 8px;
+
+
+}
+
+.nav a:hover {
+    text-decoration: underline;
+
+    
+}
+
+.slider {
+
+/* PARA CENTRAR IMAGENES APLICO TEXT-ALIGN CENTER AL ELEMENTO PADRE*/
+
+    text-align: center;
+}
+
 
